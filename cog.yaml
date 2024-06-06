@@ -1,0 +1,7 @@
+build:
+    python_packages:
+        - daily-python
+        - Pillow
+        - psutil
+    python_version: "3.11"
+predict: predict.py:Predictor
